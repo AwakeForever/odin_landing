@@ -1,5 +1,5 @@
 html, body {
-    /*height: 150%;*/
+    height: 190%;
 } 
 
 
@@ -12,32 +12,98 @@ body {
 
 
 
+
 .container{
+    height: 100vh;
     
-    height: 100px;
-    border: 100px red; 
-    flex: 1;
+    
 
 }
 
 #first{
-    background: red
+    background: #1F2937;
+    
 }
 
 
+.first-logo{
+    text-align:left;
+    margin-left: 10%;
+    margin-bottom: 10%
+}
+
+.first-logo span{
+    float:right;
+    margin-right: 10%;
+
+}
+
+.first-para{
+    text-align:left;
+    margin-left: 10%;
+    
+}
+
+.first-para span{
+    float:right;
+    margin-right: 10%;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    
+}
 #second{
-    background: cyan;
+    background: White;
+}
+
+.second-para{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.second-div{
+
+}
+
+.second-text{
+    text-align: center;
+}
+
+.second-box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    
 }
 
 #third{
-    background: yellow;
+    background: #E5E7E3;
 }
 
+
+.third-head{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.third-para{
+    text-align: right;
+    margin-right: 20%;
+    
+}
 #fourth{
-    background: green;
+    background: White;
 }
 
 #footer{
-    height : 10px;
-    background: black;
+    background: #1F2937;
+    height: 50vh;
 }
